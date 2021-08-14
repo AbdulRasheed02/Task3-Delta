@@ -271,11 +271,4 @@ public class ImageAnalysisActivity extends AppCompatActivity {
             }
         });
     }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        Intent intent=new Intent(ImageAnalysisActivity.this,MainActivity.class);
-        startActivity(intent);
-    }
 }

@@ -135,9 +135,4 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.OnIte
             detailIntent.putExtra(EXTRA_Origin, clickedItem.getOrigin());
             startActivity(detailIntent);
     }
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        finishAffinity();
-    }
 }
